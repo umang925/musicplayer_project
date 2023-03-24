@@ -34,7 +34,6 @@ def Stop():
     songs_list.selection_clear(ACTIVE)
 
 #to resume the song
-
 def Resume():
     mixer.music.unpause()
 
