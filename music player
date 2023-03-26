@@ -54,7 +54,6 @@ def Previous():
     previous_one=previous_one[0]-1
     #to get the previous song
     temp2=songs_list.get(previous_one)
-    # temp2=f'C:/Users/DataFlair/python-mp3-music-player/{temp2}'
     mixer.music.load(temp2)
     mixer.music.play()
     songs_list.selection_clear(0,END)
@@ -70,7 +69,6 @@ def Next():
     next_one=next_one[0]+1
     #to get the next song 
     temp=songs_list.get(next_one)
-    # temp=f'C:/Users/DataFlair/python-mp3-music-player/{temp}'
     mixer.music.load(temp)
     mixer.music.play()
     songs_list.selection_clear(0,END)
